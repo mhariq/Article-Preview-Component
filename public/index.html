@@ -1,0 +1,160 @@
+<!-- ## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+vgb: "hsl(217, 19%, 35%)" 
+- db: "hsl(214, 17%, 51%)"
+- gb: "hsl(212, 23%, 69%)"
+- lgb: "hsl(210, 46%, 95%)" -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Article preview component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body class="h-screen bg-lgb container">
+    <div
+      class="
+        rounded-xl
+        mx-auto
+        xl:w-1/2
+        w-auto
+        shadow-xl
+        grid grid-cols-1
+        md:grid-cols-5
+        text-vgb
+        bg-white
+        my-60
+        relative
+      "
+    >
+      <!-- IMG -->
+      <div
+        class="
+          bg-img bg-cover
+          h-60
+          md:h-auto md:col-start-1 md:col-end-3
+          rounded-top-xl
+        "
+      ></div>
+      <!-- TEXT BOX -->
+      <div class="text-box p-4 md:p-8 bg-white md:col-start-3 md:col-end-6">
+        <h1 class="font-bold mb-4 text-md md:text-xl">
+          Shift the overall look and feel by adding these wonderful touches to
+          furniture in your home
+        </h1>
+        <p class="font-light text-sm mb-4">
+          Ever been in a room and felt like something was missing? Perhaps it
+          felt slightly bare and uninviting. I’ve got some simple tips to help
+          you make any room feel complete.
+        </p>
+
+        <!-- CTA -->
+        <div class="flex">
+          <img
+            src="images/avatar-michelle.jpg"
+            alt="michelle"
+            class="h-12 w-12 flex-initial block rounded-full mr-6"
+          />
+          <div class="flex-auto">
+            <p class="font-bold text-sm mb-1">Michelle Appleton</p>
+            <p class="font-extralight text-sm">28 Jun 2020</p>
+          </div>
+
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="
+              h-5
+              w-5
+              fill-current
+              text-vgb
+              rounded-full
+              flex-initial
+              self-center
+              relative
+            "
+            viewBox="0 0 20 20"
+          >
+            <path
+              d="M15 8a3 3 0 1 0-2.977-2.63l-4.94 2.47a3 3 0 1 0 0 4.319l4.94 2.47a3 3 0 1 0 .895-1.789l-4.94-2.47a3.027 3.027 0 0 0 0-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
+            />
+          </svg>
+        </div>
+
+        <div class="bg-vgb flex gap-10 text-lgb"></div>
+      </div>
+      <!-- ACTIVE CTA -->
+      <div
+        class="
+          md:rounded-lg md:shadow-lg
+          rounded-b-lg
+          text-lgb text-sm
+          tracking-widest
+          font-extralight
+          bg-vgb
+          h-auto
+          md:absolute
+          bottom-20
+          -right-20
+          px-8
+          py-4
+          md:flex
+          gap-4
+          hidden
+        "
+      >
+        <p class="space-x-4 flex-shrink">SHARE</p>
+        <img class="h-4 w-4" src="images/icon-twitter.svg" />
+        <img class="h-4 w-4" src="images/icon-facebook.svg" />
+        <div class="flex-auto">
+          <img class="h-4 w-4" src="images/icon-pinterest.svg" />
+        </div>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="
+            h-5
+            w-5
+            fill-current
+            text-lgb
+            rounded-full
+            self-center
+            relative
+          "
+          viewBox="0 0 20 20"
+        >
+          <path
+            d="M15 8a3 3 0 1 0-2.977-2.63l-4.94 2.47a3 3 0 1 0 0 4.319l4.94 2.47a3 3 0 1 0 .895-1.789l-4.94-2.47a3.027 3.027 0 0 0 0-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <div class="attribution container text-center">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a class="text-green-800 font-bold inline-block" href="#">Yosuf Hariq</a>.
+    </div>
+  </body>
+</html>
