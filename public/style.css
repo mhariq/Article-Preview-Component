@@ -18017,7 +18017,7 @@ video {
 }
 
 .bg-img{
-  background-image: url('../public/images/drawers.jpg');
+  background-image: url('images/drawers.jpg');
 }
 
 .from-transparent{
