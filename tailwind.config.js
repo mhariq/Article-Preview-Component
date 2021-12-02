@@ -19,7 +19,7 @@ module.exports = {
         lgb: "hsl(210, 46%, 95%)",
       },
       backgroundImage: {
-        img: "url('/public/images/drawers.jpg')",
+        img: "url('../public/images/drawers.jpg')",
       },
     },
   },

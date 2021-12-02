@@ -18017,7 +18017,7 @@ video {
 }
 
 .bg-img{
-  background-image: url('/public/images/drawers.jpg');
+  background-image: url('../public/images/drawers.jpg');
 }
 
 .from-transparent{
@@ -50317,7 +50317,7 @@ video {
   }
 
   .sm\:bg-img{
-    background-image: url('/public/images/drawers.jpg');
+    background-image: url('../public/images/drawers.jpg');
   }
 
   .sm\:from-transparent{
@@ -82249,7 +82249,7 @@ video {
   }
 
   .md\:bg-img{
-    background-image: url('/public/images/drawers.jpg');
+    background-image: url('../public/images/drawers.jpg');
   }
 
   .md\:from-transparent{
@@ -114181,7 +114181,7 @@ video {
   }
 
   .lg\:bg-img{
-    background-image: url('/public/images/drawers.jpg');
+    background-image: url('../public/images/drawers.jpg');
   }
 
   .lg\:from-transparent{
@@ -146113,7 +146113,7 @@ video {
   }
 
   .xl\:bg-img{
-    background-image: url('/public/images/drawers.jpg');
+    background-image: url('../public/images/drawers.jpg');
   }
 
   .xl\:from-transparent{
@@ -178045,7 +178045,7 @@ video {
   }
 
   .\32xl\:bg-img{
-    background-image: url('/public/images/drawers.jpg');
+    background-image: url('../public/images/drawers.jpg');
   }
 
   .\32xl\:from-transparent{
